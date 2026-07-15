@@ -64,7 +64,7 @@ export default function Home() {
         </motion.div>
       ))}
 
-      {/* Hero */}
+      
       <div className="hero">
 
         <motion.div
@@ -113,7 +113,7 @@ export default function Home() {
           Get Started <FaArrowRight />
         </motion.button>
 
-        {/* Glass Card */}
+        
         <motion.div
           className="card"
           initial={{ opacity: 0, y: 100 }}

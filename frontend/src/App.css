@@ -5,7 +5,7 @@
   font-family: Poppins, sans-serif;
 }
 
-/* MAIN BACKGROUND */
+
 .home-container {
   min-height: 100vh;
   overflow: hidden;
@@ -15,7 +15,7 @@
   animation: gradient 12s ease infinite;
 }
 
-/* GLOW EFFECTS */
+
 .glow {
   position: absolute;
   border-radius: 50%;
@@ -39,14 +39,14 @@
   filter: blur(130px);
 }
 
-/* FLOATING LEAVES */
+
 .leaf {
   position: absolute;
   color: #9cff57;
   pointer-events: none;
 }
 
-/* HERO SECTION */
+
 .hero {
   position: relative;
   z-index: 5;
@@ -60,14 +60,14 @@
   padding: 20px;
 }
 
-/* ICON */
+
 .leaf-icon {
   font-size: 90px;
   color: #8cff00;
   filter: drop-shadow(0 0 25px #8cff00);
 }
 
-/* TEXT */
+
 .title {
   font-size: 70px;
   font-weight: 900;
@@ -88,7 +88,7 @@
   line-height: 1.8;
 }
 
-/* BUTTON */
+
 .btn {
   margin-top: 50px;
   padding: 20px 50px;
@@ -109,7 +109,6 @@
   box-shadow: 0 0 60px #7CFC00;
 }
 
-/* GLASS CARD */
 .card {
   margin-top: 70px;
   padding: 30px;
@@ -122,14 +121,14 @@
   color: white;
 }
 
-/* ANIMATION */
+
 @keyframes gradient {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
 
-/* BACKGROUND */
+
 .home-container {
   min-height: 100vh;
   display: flex;
@@ -140,7 +139,7 @@
   animation: bgMove 10s infinite alternate;
 }
 
-/* CARD */
+
 .detect-card {
   width: 420px;
   padding: 30px;
@@ -160,7 +159,7 @@
   box-shadow: 0 0 40px rgba(0, 255, 120, 0.25);
 }
 
-/* TITLE */
+
 .title {
   font-size: 24px;
   margin-bottom: 8px;
@@ -173,7 +172,7 @@
   margin-bottom: 20px;
 }
 
-/* UPLOAD */
+
 .upload-box {
   display: block;
   padding: 15px;
@@ -193,7 +192,7 @@
   display: none;
 }
 
-/* IMAGE PREVIEW */
+
 .image-preview img {
   width: 100%;
   border-radius: 12px;
@@ -201,7 +200,7 @@
   box-shadow: 0 0 20px rgba(0, 255, 120, 0.2);
 }
 
-/* BUTTON */
+
 .detect-btn {
   width: 100%;
   padding: 12px;
@@ -225,7 +224,6 @@
   cursor: not-allowed;
 }
 
-/* RESULT */
 .result-box {
   margin-top: 20px;
   padding: 15px;
@@ -234,7 +232,6 @@
   border: 1px solid rgba(0, 255, 120, 0.3);
 }
 
-/* ANIMATIONS */
 .fade-in {
   animation: fadeIn 1s ease;
 }
